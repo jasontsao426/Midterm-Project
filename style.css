@@ -213,3 +213,130 @@ input[type=submit]:hover {
 #p4img{
   border-radius: 90%;
 }
+
+
+
+@media screen and (max-width: 768px) {
+  .directories{
+    display: flex;
+    font-size: 0.8em;
+    justify-content: space-around;
+    align-items:center;
+
+    margin-top: 3vmin;
+    margin-bottom: 5vmin;
+    margin-left: 5vmin;
+    margin-right: 5vmin;
+
+    list-style-type: none;
+  }
+
+  .p1titleContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1em;
+    line-height: 1.2em;
+    margin-left:  3vmin;
+    margin-right: 3vmin;
+    background-color: #83c5be;
+    border-radius: 5px;
+
+  }
+  .text-img > p{
+    width: 100%;
+
+  }
+
+  .subDirectory{
+
+    display: flex;
+    font-size: 0.9em;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 10vmin;
+    margin-left:  3vmin;
+    margin-right: 3vmin;
+    margin-bottom: 3vmin;
+
+  }
+
+  .p1titleContainer > p{
+    margin-left:  1vmin;
+    margin-right: 1vmin;
+    text-align: center;
+  }
+  .text-img{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.2em;
+    line-height: 1.3em;
+    margin: 2vmin;
+    max-width: 400px;
+  }
+ }
+
+
+@media screen and (max-width: 992px) {
+  .directories{
+    display: flex;
+    font-size: 1em;
+    justify-content: space-around;
+    align-items:center;
+
+    margin-top: 5vmin;
+    margin-bottom: 7vmin;
+    margin-left: 20vmin;
+    margin-right: 20vmin;
+
+    list-style-type: none;
+  }
+
+  .p1titleContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1em;
+    line-height: 1.2em;
+    margin-left:  10vmin;
+    margin-right: 10vmin;
+    background-color: #83c5be;
+    border-radius: 10px;
+
+  }
+  .text-img > p{
+    width: 100%;
+
+  }
+
+  .subDirectory{
+
+    display: flex;
+    font-size: 1em;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 3vmin;
+    margin-left:  10vmin;
+    margin-right: 10vmin;
+    margin-bottom: 3vmin;
+
+  }
+
+  .p1titleContainer > p{
+    margin-left:  1vmin;
+    margin-right: 1vmin;
+    text-align: center;
+  }
+  .text-img{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.2em;
+    line-height: 1.3em;
+    margin: 2vmin;
+    max-width: 800px;
+  }
+ }
